@@ -1,0 +1,156 @@
+/* ===== PINK / LIGHT PINK / LIGHT BLUE THEME FOR ALL PAGES ===== */
+
+body {
+    background-color: #ffe6f0;
+    /* light pink background */
+    color: #4a2c3a;
+    /* dark pink text */
+}
+
+/* LOGIN */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #ffc0e7;
+    /* light pink background sa login page */
+}
+
+.login-box {
+    background: white;
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-box input,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button {
+    background: palevioletred;
+    /* pink button sa login */
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(to right, #ffb6c1, #ff69b4);
+    /* pink gradient */
+    color: white;
+    padding: 35px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 2.3em;
+}
+
+header p {
+    font-size: 1.1em;
+    margin-top: 8px;
+}
+
+/* SECTION */
+section {
+    max-width: 850px;
+    margin: 40px auto;
+    background: #fff0f6;
+    /* very light pink */
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(255, 105, 180, 0.3);
+}
+
+/* HEADINGS */
+section h2 {
+    color: #ff4fa3;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* PARAGRAPHS */
+section p {
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
+
+/* BUTTONS */
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background: #ff69b4;
+    /* pink */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff1493;
+    /* darker pink on hover */
+    transform: scale(1.05);
+}
+
+.home {
+    height: 100vh;
+    background: url("link222.jpg") no-repeat center center/cover;
+    /* background image */
+    position: relative;
+}
+
+/* LINKS ON HOME PAGE */
+.home-links a {
+    display: inline-block;
+    margin: 15px;
+    padding: 12px 20px;
+    background: #ff69b4;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    text-align: center;
+}
+
+.home-links a:hover {
+    background-color: #ff1493;
+    transform: scale(1.05);
+}
+
+/* OPTIONAL: Light Blue highlights */
+.highlight-blue {
+    background-color: #add8e6;
+    /* light blue */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* GALLERY IMAGES */
+.gallery img {
+    width: 180px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
+    animation: fadeIn 1s ease;
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+}
